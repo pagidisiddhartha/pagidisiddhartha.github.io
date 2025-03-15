@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReVithalize - Retrofit Your Eco-Friendly Ride</title>
+    <!-- Add your CSS and Ionicons links here -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+</head>
+<body>
+
+#---------- HEADER ----------#
+
+<header>
+    <a href="#" aria-label="ReVithalize home">
+        <img src="revithalize-logo.png" alt="ReVithalize home">
+    </a>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="contact-info">
+        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        <span>+(123) 4567-8901</span>
+    </div>
+    <a href="#quote" class="get-quote">Get a Quote
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+    </a>
+    <button aria-label="toggle menu">
+        <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+    </button>
+</header>
+
+#---------- HERO ----------#
+
+<section id="hero">
+    <h1>Retrofit Your<br>New Eco-Friendly<br>Ride</h1>
+    <div class="stats">
+        <div>
+            <ion-icon name="speedometer-outline" aria-hidden="true"></ion-icon>
+            <span>Top Speed<br>60 km/h</span>
+        </div>
+        <div>
+            <ion-icon name="stopwatch-outline" aria-hidden="true"></ion-icon>
+            <span>0-40 km/hr in<br>4 sec</span>
+        </div>
+        <div>
+            <ion-icon name="checkmark-done-circle-outline" aria-hidden="true"></ion-icon>
+            <span>Certified Range<br>80 km</span>
+        </div>
+    </div>
+    <a href="#book" class="book-now">Book Now
+        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+    </a>
+    <img src="retrofit-bike.png" alt="Retrofit Bike">
+</section>
+
+#---------- ABOUT ----------#
+
+<section id="about">
+    <img src="about-banner.png" alt="about banner">
+    <div class="about-content">
+        <h2>What We Do!</h2>
+        <p>Our mission is to retrofit your existing bike into an electric vehicle with our smart retrofit solutions, offering access to over 50 battery swap kiosks across India.</p>
+        <div class="features">
+            <div>
+                <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+                <span>Zero Fuel Travel</span>
+                <p>Save ₹15,000/year with our electric retrofit kits.</p>
+            </div>
+            <div>
+                <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                <span>No Driving License</span>
+                <p>Easy transition for your current bike.</p>
+            </div>
+            <div>
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                <span>Detachable Battery</span>
+                <p>Charge at home in 3 hours with SunRide.</p>
+            </div>
+        </div>
+        <a href="#read-more" class="read-more">Read More
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+    </div>
+</section>
+
+#---------- STATS ----------#
+
+<section id="stats">
+    <div class="stat-item">500+
+        <p>Bikes Retrofitted</p>
+    </div>
+    <div class="stat-item">350+
+        <p>Battery Swaps/Day</p>
+    </div>
+    <div class="stat-item">100k+
+        <p>km Saved on Fuel</p>
+    </div>
+    <div class="video-banner">
+        <img src="video-banner.png" alt="Video banner">
+        <button aria-label="play video">
+            <ion-icon name="play" aria-hidden="true"></ion-icon>
+        </button>
+    </div>
+</section>
+
+#---------- SERVICE ----------#
+
+<section id="services">
+    <h2>What We Do!</h2>
+    <h3>What Advantages Will You Get With Our Retrofit?</h3>
+    <div class="service-items">
+        <div>
+            <ion-icon name="car-outline" aria-hidden="true"></ion-icon>
+            <h4>Recoverable Energy</h4>
+            <p>Charge your retrofitted bike at home with our SunRide system.</p>
+        </div>
+        <div>
+            <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+            <h4>Quick Installation</h4>
+            <p>Retrofit your bike in under 2 hours.</p>
+        </div>
+        <div>
+            <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+            <h4>Zero Contact Travel</h4>
+            <p>Enjoy a fuel-free ride with lifetime battery swaps.</p>
+        </div>
+    </div>
+</section>
+
+#---------- CTA ----------#
+
+<section id="cta">
+    <h2>Designed for India’s Roads.</h2>
+    <p>Transform your bike with ReVithalize—affordable, reliable, and eco-friendly rides.</p>
+    <a href="#book" class="book-now">Book Now
+        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+    </a>
+    <img src="cta-banner.png" alt="cta banner">
+</section>
+
+#---------- BLOG ----------#
+
+<section id="blog">
+    <h2>Fresh News</h2>
+    <p>Our recent articles on EV retrofitting solutions</p>
+    <a href="#blog-more" class="view-more">View More Blog
+        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+    </a>
+    <div class="blog-posts">
+        <article>
+            <img src="energy-chargers.png" alt="Energy Star Certified Electric Vehicle Chargers">
+            <time>03 Jun 2022</time>
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            <span>Admin</span>
+            <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+            <span>2 Comments</span>
+            <h3>Energy Star Certified Retrofit Kits</h3>
+            <p>Learn about our certified retrofit solutions for electric bikes.</p>
+        </article>
+        <article>
+            <img src="charging-solution.png" alt="Charging Solution For Electric Bike">
+            <time>05 Jun 2022</time>
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            <span>Admin</span>
+            <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+            <span>1 Comment</span>
+            <h3>Charging Solution For Electric Bikes</h3>
+            <p>Home charging with our detachable battery system.</p>
+        </article>
+        <article>
+            <img src="home-station.png" alt="Home Charging Station For Electric Bikes">
+            <time>07 Jun 2022</time>
+            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            <span>Admin</span>
+            <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+            <span>0 Comments</span>
+            <h3>Home Charging Station For Electric Bikes</h3>
+            <p>Retrofit kits with SunRide for home charging.</p>
+        </article>
+    </div>
+</section>
+
+#---------- CONTACT ----------#
+
+<section id="contact">
+    <div class="contact-item">
+        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        <h3>Hot Line</h3>
+        <p>+(01) 1234-57-890</p>
+    </div>
+    <div class="contact-item">
+        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        <h3>E-mail Address</h3>
+        <p>revithalizeinfo@gmail.com</p>
+    </div>
+    <div class="contact-item">
+        <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+        <h3>Our Location</h3>
+        <p>101 Avenue, Hyderabad, India</p>
+    </div>
+</section>
+
+#---------- FOOTER ----------#
+
+<footer>
+    <div class="footer-top">
+        <ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+        <h3>Sign up for Retrofit News & Insights</h3>
+        <form>
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h2>ReVithalize WP Theme</h2>
+            <p>A leading developer of A-grade EV retrofit projects in India. Since its foundation, the company has doubled its turnover year on year.</p>
+            <a href="#quote" class="get-quote">Get a Quote
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+        </div>
+        <div class="footer-links">
+            <h4>Company Info</h4>
+            <a href="#about">About Us</a>
+            <a href="#gallery">Our Projects</a>
+            <a href="#team">Meet Our Team</a>
+            <a href="#blog">News & Media</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#careers">Careers</a>
+        </div>
+        <div class="footer-contact">
+            <h4>Quick Contact</h4>
+            <p>2307 Beverley Rd, Hyderabad, India 500001.</p>
+            <p>If you have questions, contact our team.</p>
+            <p>(002) 01061245741</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Where to Find Us | Terms of Payment | Stats Element<br>Made with love @codewithsadee</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">
+                <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+            </a>
+            <a href="#" aria-label="Twitter">
+                <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+            </a>
+            <a href="#" aria-label="YouTube">
+                <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+            </a>
+        </div>
+    </div>
+    <a href="#" aria-label="go to top" class="back-to-top">
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+</footer>
+
+</body>
+</html>
